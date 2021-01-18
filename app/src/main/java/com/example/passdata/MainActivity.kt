@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             val inputData: String = edText.text.toString()
             val intent = Intent(this, SecondActivity::class.java)
             intent.putExtra("key1", inputData)
+            
             startActivity(intent)
         }
     }
